@@ -1,0 +1,64 @@
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Encabezado: logo de la página*/
+ .logo {
+  display: flex;
+  background-color: #ffdf00;
+   }
+  .logo h1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 100px 20px 50px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+  .logo img{
+    width: 100px;
+  }
+.menu {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-around;
+}
+/*body*/
+.video {
+  width: 1200px;
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3fr 0fr;
+  grid-template-areas:
+    "img1      img2    img3"
+    "img1      img2    img3" 
+  }
+.titulo2 { 
+  background-color: #ffdf00;
+  display: flex;
+  justify-content: center;
+font-family: monospace;
+}
+.img {
+  width: 350px;
+  height: 400px;
+  margin: 10px 10px 10px 10px;
+  background-color: #ffdf00;
+}
+.grid-item1 {
+  grid-area: img1;
+ }
+.grid-item-2 {
+  grid-area: img2;
+}
+.grid-item-3 {
+  grid-area: img3;
+}

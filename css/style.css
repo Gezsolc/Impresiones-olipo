@@ -4,11 +4,11 @@
     font-style: normal;
   }
 /* Encabezado: logo de la página*/
- .logo {
+.logo-container-fluid {
   display: flex;
   background-color: #ffdf00;
    }
-  .logo h1 {
+  .logo-container-fluid h1 {
     display: flex;
     align-items: center;
     margin: 20px 100px 20px 50px;
@@ -17,7 +17,7 @@
     font-style: normal;
     font-size: 30px;
     }
-  .logo img{
+  .logo-container-fluid img{
     width: 80px;
   }
   .navbar-bg-body-tertiary {
@@ -25,25 +25,19 @@
     margin-left: auto;
     align-items: center;
   }
-.menu {
-  list-style: none;
-  text-decoration: none;
-  display: flex;
-  align-content: flex-end;
-  justify-content: space-around;
-}
 /*body*/
-.video {
-  width: 1200px;
+.video-container-fluid {
   margin: 20px 20px 20px 20px;
   display: flex;
   justify-content: center;
+}
+.video-container-fluid video {
+  width: 100%;
 }
 .titulo2 { 
   background-color: #ffdf00;
   display: flex;
   justify-content: center;
-font-family: monospace;
 }
 .card-contenedor {
   display: flex;

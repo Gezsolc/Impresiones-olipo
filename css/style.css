@@ -33,32 +33,24 @@
   display: flex;
   justify-content: center;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 3fr 0fr;
-  grid-template-areas:
-    "img1      img2    img3"
-    "img1      img2    img3" 
-  }
 .titulo2 { 
   background-color: #ffdf00;
   display: flex;
   justify-content: center;
 font-family: monospace;
 }
-.img {
-  width: 350px;
-  height: 400px;
-  margin: 10px 10px 10px 10px;
-  background-color: #ffdf00;
+.card-contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 15px 15px;
 }
-.grid-item1 {
-  grid-area: img1;
- }
-.grid-item-2 {
-  grid-area: img2;
+.card-img {
+  width: 30%;
+  padding: 10px 10px 10px 10px;
+  border-style: ridge;
 }
-.grid-item-3 {
-  grid-area: img3;
+.card-img-first {
+  width: 100%;
+  border-radius: 10px;
+
 }

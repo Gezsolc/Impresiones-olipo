@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+/* Encabezado: logo de la página*/
+.head {
+  display: flex;
+  background-color: #ffdf00 !important;
+  border: 5px solid white;
+}
+.head__elementos {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+}
+.head__logo {
+  display: flex;
+  align-items: center;
+  font-family: "Lobster", sans-serif;
+  font-size: 30px;
+}
+.head__logo__img {
+  height: 40px;
+  width: fit-content;
+  margin: 0px 20px 0px 10px;
+}
+
+.nav {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */

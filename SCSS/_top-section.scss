@@ -6,7 +6,6 @@
     &__elementos {
         display: flex;
         margin: 10px 0px 10px 0px;
-        padding: 0%;
     }
     &__logo{
    display: flex;
@@ -20,8 +19,13 @@
       }
      }
 }
-     .nav {
-      display: flex;
-      margin-left: auto;
-      align-items: center;
+/*barra de navegación*/
+.nav {
+    &__btn1 {
+        @include btn (700, $dosis, 20px, black);
+        margin: 0%
     }
+    &__btn {
+    @include btn (700, $dosis, 20px, black);
+    }
+}

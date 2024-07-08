@@ -1,0 +1,7 @@
+//navegación btn
+@mixin btn($fw, $ff, $fs, $cf ){
+    font-weight: $fw;
+    font-family: $ff;
+    font-size: $fs;
+    color: $cf;
+}

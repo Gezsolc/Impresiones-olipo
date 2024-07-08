@@ -29,10 +29,104 @@
   margin: 0px 20px 0px 10px;
 }
 
-.nav {
+/*barra de navegación*/
+.nav__btn1 {
+  font-weight: 700;
+  font-family: "Dosis";
+  font-size: 20px;
+  color: black;
+  margin: 0%;
+}
+.nav__btn {
+  font-weight: 700;
+  font-family: "Dosis";
+  font-size: 20px;
+  color: black;
+}
+
+/*body*/
+.banner {
+  margin: 20px 20px 20px 20px;
   display: flex;
-  margin-left: auto;
-  align-items: center;
+  justify-content: center;
+}
+.banner__contenedor {
+  display: flex;
+  justify-content: center;
+}
+.banner__contenedor__video {
+  width: 100%;
+}
+
+/*titulo2 y fotos*/
+.banner2 {
+  background-color: #ffdf00 !important;
+  border: 5px solid white;
+}
+.banner2__container {
+  justify-content: center !important;
+}
+.banner2__container__h2 {
+  display: block;
+  text-align: center;
+  margin: 0%;
+  font-family: "Dosis";
+  font-weight: 700;
+}
+
+.card-contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 15px 15px;
+  flex-wrap: wrap;
+}
+.card-contenedor__card {
+  width: 30%;
+  padding: 10px 10px 10px 10px;
+  border-style: ridge;
+  /*overflow: hidden; */
+  aspect-ratio: 16/9;
+  box-sizing: border-box;
+  letter-spacing: 0.1em;
+}
+.card-contenedor__card__img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
+  /* --pseudoclase focus en imágenes--
+  display: block;
+  transition: transform 0.3s ease-in-out;
+      &__img:focus {
+      outline: 2px dotted;
+      transform: scale(1.05);
+      transition: all 0.3s;*/
+}
+
+/*Productos*/
+.titulo2 {
+  background-color: "#feefad";
+}
+
+.row-pie {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+.row-piecolumn1 {
+  margin: 0px 20px 0px 0px;
+}
+.row-piecolumn1pie {
+  display: flex;
+}
+.row-piecolumn1pie__navegacion {
+  margin: 0px 40px 0px 10px;
+}
+.row-piecolumn1pie__navegacion__navfinal {
+  list-style: none;
+}
+.row-piecolumn2 {
+  display: flex;
+  align-items: end;
 }
 
 /*# sourceMappingURL=main.css.map */

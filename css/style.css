@@ -3,26 +3,7 @@
     font-weight: 400;
     font-style: normal;
   }
-  /*comentario*/
-/* Encabezado: logo de la página*/
-.logo-container-fluid {
-  display: flex;
-  background-color: #ffdf00;
-   }
-  .logo-container-fluid h1 {
-    display: flex;
-    align-items: center;
-    margin: 20px 100px 20px 50px;
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    }
-  .navbar-bg-body-tertiary {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-  }
+ 
 /*body*/
 .video-container-fluid {
   margin: 20px 20px 20px 20px;

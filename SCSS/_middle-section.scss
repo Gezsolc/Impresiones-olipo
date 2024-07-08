@@ -1,0 +1,60 @@
+/*body*/
+.banner {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    &__contenedor {
+        display: flex;
+        justify-content: center;
+        &__video {
+            width: 100%;
+        }
+    }
+  }
+  /*titulo2 y fotos*/
+  .banner2 { 
+    background-color: #ffdf00 !important;
+    border: 5px solid white;
+    &__container {
+        justify-content: center !important;
+        &__h2 {
+        display: block;
+        text-align: center;
+        margin: 0%;
+        font-family: $dosis;
+        font-weight: 700;
+        }
+  }
+  }
+  .card-contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px 15px 15px;
+    flex-wrap: wrap;
+    &__card {
+        width: 30%;
+        padding: 10px 10px 10px 10px;
+        border-style: ridge;
+        /*overflow: hidden; */
+        aspect-ratio: 16 / 9;
+        box-sizing: border-box;
+        letter-spacing: 0.1em;
+        &__img {
+            width: 100%;
+            border-radius: 10px;
+            max-width: 100%;
+            /* --pseudoclase focus en imágenes--
+            display: block;
+            transition: transform 0.3s ease-in-out;
+                &__img:focus {
+                outline: 2px dotted;
+                transform: scale(1.05);
+                transition: all 0.3s;*/
+        }
+    }
+
+    }
+    /*Productos*/
+    .titulo2 {
+        background-color: $color2; 
+    }

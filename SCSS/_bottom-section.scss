@@ -1,22 +1,24 @@
-//navegación final
+/*navegación final*/
 .row-pie { 
-  display: flex;
+  display: grid;
   flex-wrap: nowrap;
   max-width: 100%;
-  &column1 {
+  grid-template-columns: 1fr 2fr 1fr;
+}  
+.column1 {
     margin: 0px 20px 0px 0px;
+    justify-self: self-start;
+    text-align: left;
     &pie {
       display: flex;
     &__navegacion {
       margin: 0px 40px 0px 10px;
-       &__navfinal {
-    list-style: none;
-    }
-  }
+   }
   }
 }
-  &column2 {
-    display: flex;
-    align-items: end;
-  }
+.column2 {
+  align-content: flex-end;
+}
+.column3 {
+line-height: 50px;
 }

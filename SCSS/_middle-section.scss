@@ -11,7 +11,7 @@
         }
     }
   }
-  /*titulo2 y fotos*/
+  /*titulo2 y fotos inicio*/
   .banner2 { 
     background-color: #ffdf00 !important;
     border: 5px solid white;
@@ -31,30 +31,44 @@
     justify-content: space-between;
     margin: 15px 15px 15px 15px;
     flex-wrap: wrap;
+    cursor: default;
     &__card {
         width: 30%;
-        padding: 10px 10px 10px 10px;
+        padding: 10px;
         border-style: ridge;
-        /*overflow: hidden; */
         aspect-ratio: 16 / 9;
         box-sizing: border-box;
-        letter-spacing: 0.1em;
+        box-shadow: 0px 1px 10px;
+        transition: all 400ms ease;
         &__img {
             width: 100%;
             border-radius: 10px;
             max-width: 100%;
-            /* --pseudoclase focus en imágenes--
-            display: block;
-            transition: transform 0.3s ease-in-out;
-                &__img:focus {
-                outline: 2px dotted;
-                transform: scale(1.05);
-                transition: all 0.3s;*/
+            height: 400px;
         }
+        &__body {
+            text-align: center;
+            padding: 15px;
+        &__text {
+            font-family: $dosis;
+            }
+        }
+        /*&__body {
+            text-align: center;
+            padding: 5px;
+        }*/
     }
-
+    &__card:hover {
+        box-shadow: 5px 5px 20px;
+        transform: translateY(-3%);
     }
-    /*Productos*/
+    }
+    /*Productos: grid-imágenes*/
     .titulo2 {
-        background-color: $color2; 
+        background-color: $color2; //modificar colores porqué no agarra en la página
+        text-align: center;
+        margin: 10px;
+        &h2 {
+            font-family: $dosis;
+        }
     }

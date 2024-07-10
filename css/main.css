@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+.lista {
+  list-style: none;
+  text-decoration: none;
+}
+
 /* Encabezado: logo de la página*/
 .head {
   display: flex;
@@ -58,7 +63,7 @@
   width: 100%;
 }
 
-/*titulo2 y fotos*/
+/*titulo2 y fotos inicio*/
 .banner2 {
   background-color: #ffdf00 !important;
   border: 5px solid white;
@@ -79,54 +84,75 @@
   justify-content: space-between;
   margin: 15px 15px 15px 15px;
   flex-wrap: wrap;
+  cursor: default;
 }
 .card-contenedor__card {
   width: 30%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   border-style: ridge;
-  /*overflow: hidden; */
   aspect-ratio: 16/9;
   box-sizing: border-box;
-  letter-spacing: 0.1em;
+  box-shadow: 0px 1px 10px;
+  transition: all 400ms ease;
+  /*&__body {
+      text-align: center;
+      padding: 5px;
+  }*/
 }
 .card-contenedor__card__img {
   width: 100%;
   border-radius: 10px;
   max-width: 100%;
-  /* --pseudoclase focus en imágenes--
-  display: block;
-  transition: transform 0.3s ease-in-out;
-      &__img:focus {
-      outline: 2px dotted;
-      transform: scale(1.05);
-      transition: all 0.3s;*/
+  height: 400px;
+}
+.card-contenedor__card__body {
+  text-align: center;
+  padding: 15px;
+}
+.card-contenedor__card__body__text {
+  font-family: "Dosis";
+}
+.card-contenedor__card:hover {
+  box-shadow: 5px 5px 20px;
+  transform: translateY(-3%);
 }
 
-/*Productos*/
+/*Productos: grid-imágenes*/
 .titulo2 {
   background-color: "#feefad";
+  text-align: center;
+  margin: 10px;
+}
+.titulo2h2 {
+  font-family: "Dosis";
 }
 
+/*navegación final*/
 .row-pie {
-  display: flex;
+  display: grid;
   flex-wrap: nowrap;
   max-width: 100%;
+  grid-template-columns: 1fr 2fr 1fr;
 }
-.row-piecolumn1 {
+
+.column1 {
   margin: 0px 20px 0px 0px;
+  justify-self: self-start;
+  text-align: left;
 }
-.row-piecolumn1pie {
+.column1pie {
   display: flex;
 }
-.row-piecolumn1pie__navegacion {
+.column1pie__navegacion {
   margin: 0px 40px 0px 10px;
 }
-.row-piecolumn1pie__navegacion__navfinal {
-  list-style: none;
+
+.column2 {
+  align-content: flex-end;
 }
-.row-piecolumn2 {
-  display: flex;
-  align-items: end;
+
+.column3 {
+  line-height: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */

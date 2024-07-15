@@ -8,10 +8,11 @@
         justify-content: center;
         &__video {
             width: 100%;
+            max-width: -webkit-fill-available; 
         }
     }
   }
-  /*titulo2 y fotos inicio*/
+  /*Contenedor imágenes-html*/
   .banner2 { 
     background-color: #ffdf00 !important;
     border: 5px solid white;
@@ -29,7 +30,7 @@
   .card-contenedor {
     display: flex;
     justify-content: space-between;
-    margin: 15px 15px 15px 15px;
+    margin: 15px;
     flex-wrap: wrap;
     cursor: default;
     &__card {
@@ -53,10 +54,6 @@
             font-family: $dosis;
             }
         }
-        /*&__body {
-            text-align: center;
-            padding: 5px;
-        }*/
     }
     &__card:hover {
         box-shadow: 5px 5px 20px;

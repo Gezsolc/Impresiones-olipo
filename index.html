@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <!--BS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- CSS-->
     <link rel="stylesheet" href="./css/main.css"> 
    </head>
@@ -27,7 +29,10 @@
             </a>
             <form class="head__busqueda d-flex" role="search">
               <input class="head__busqueda__formulario form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="head__busqueda__btn btn-outline-success" type="submit">Buscar</button>
+              <button class="head__busqueda__btn btn-outline-success" type="submit">
+                <span class="search-text">Buscar</span>
+                <i class="fas fa-search search-icon" style="display: none;"></i>
+              </button>
             </form>
           </div>
         </nav>
@@ -63,7 +68,7 @@
       <section>
         <div class="banner">
           <div class="banner__contenedor video-container-fluid">
-            <video class="banner-contenedor__video" controls src="videos/jarra-birrera.mp4"></video>
+            <video class="banner__contenedor__video" controls src="videos/jarra-birrera.mp4"></video>
           </div>
         </div>
       </section>
@@ -100,18 +105,18 @@
             <section class="pie">
               <nav class="pie__navegacion">
                     <ul class="pie__navegacion__navfinal"> 
-                      <li class="lista"> <p> Navegación </p> </li>
-                      <li class="lista"> <a href="pages/Inicio.html"> Inicio </a> </li>
-                      <li class="lista"><a href="pages/Productos.html"> Productos </a></li>
-                      <li class="lista"><a href="pages/quienes-somos.html"> Conócenos </a></li>
-                      <li class="lista"><a href="pages/Formas de envío.html"> Envíos </a></li>
-                      <li class="lista"><a href="pages/Pedidos.html"> Pedidos </a></li>
+                      <li class="lista"> <p class="lista__pie"> Navegación </p> </li>
+                      <li class="lista"> <a class="lista__link" href="pages/Inicio.html"> Inicio </a> </li>
+                      <li class="lista"><a class="lista__link" href="pages/Productos.html"> Productos </a></li>
+                      <li class="lista"><a class="lista__link" href="pages/quienes-somos.html"> Conócenos </a></li>
+                      <li class="lista"><a class="lista__link" href="pages/Formas de envío.html"> Envíos </a></li>
+                      <li class="lista"><a class="lista__link" href="pages/Pedidos.html"> Pedidos </a></li>
                     </ul>
               </nav>
           </div>
           <div class="column2">
             <div>
-              <p>Diseñado por Gezsolc | Todos los derechos reservados</p>
+              <p class="column2__autor">Diseñado por Gezsolc | Todos los derechos reservados</p>
             </div>
           </div>
           <div class="column3">

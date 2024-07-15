@@ -29,11 +29,14 @@
           </a>
           <form class="head__busqueda d-flex" role="search">
             <input class="head__busqueda__formulario form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="head__busqueda__btn btn-outline-success" type="submit">Buscar</button>
+            <button class="head__busqueda__btn btn-outline-success" type="submit">
+              <span class="search-text">Buscar</span>
+              <i class="fas fa-search search-icon" style="display: none;"></i>
+            </button>
           </form>
         </div>
       </nav>
-    </section>
+  </section>
     <section>
       <nav class="nav navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -80,7 +83,7 @@
                     <input type="tel" name="teléfono" id="teléfono" placeholder="Ej: 1134232879" required>
             
                  <p> Contanos tu idea, trata de incluirnos detalles. No te preocupes nosotros nos encargamos del resto</p>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="text-container" name="" id="" cols="30" rows="10"></textarea>
                  <input type="submit" value="">
              </form>
          </section>
@@ -92,18 +95,18 @@
             <section class="pie">
               <nav class="pie__navegacion">
                     <ul class="pie__navegacion__navfinal"> 
-                      <li class="lista"> <p> Navegación </p> </li>
-                      <li class="lista"> <a href="../index.html"> Inicio </a> </li>
-                      <li class="lista"><a href="../pages/productos.html"> Productos </a></li>
-                      <li class="lista"><a href="../pages/quienes-somos.html"> Conócenos </a></li>
-                      <li class="lista"><a href="../pages/formas de envío.html de envío.html"> Envíos </a></li>
-                      <li class="lista"><a href="../pages/pedidos.html"> Pedidos </a></li>
+                      <li class="lista"> <p class="lista__pie"> Navegación </p> </li>
+                      <li class="lista"> <a class="lista__link" href="../index.html"> Inicio </a> </li>
+                      <li class="lista"><a class="lista__link" href="../pages/productos.html"> Productos </a></li>
+                      <li class="lista"><a class="lista__link" href="../pages/contacto.html"> Contácto </a></li>
+                      <li class="lista"><a class="lista__link" href="../pages/formas de envío.html de envío.html"> Envíos </a></li>
+                      <li class="lista"><a class="lista__link" href="../pages/pedidos.html"> Pedidos </a></li>
                     </ul>
               </nav>
           </div>
           <div class="column2">
             <div>
-              <p>Diseñado por Gezsolc | Todos los derechos reservados</p>
+              <p class="column2__autor">Diseñado por Gezsolc | Todos los derechos reservados</p>
             </div>
           </div>
           <div class="column3">
@@ -124,7 +127,7 @@
           </div>
         </div>
       </div>
-   </footer>    <!--BS script-->
+   </footer>   
    <!--BS script-->
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

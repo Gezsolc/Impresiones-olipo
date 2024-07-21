@@ -50,6 +50,10 @@
 }
 
 /*body*/
+.color-cuerpo {
+  background-image: repeating-linear-gradient(293deg, hsla(29, 0%, 74%, 0.12) 0px, transparent 7px, hsla(29, 0%, 74%, 0.12) 12px, transparent 19px, hsla(29, 0%, 74%, 0.12) 24px, transparent 31px, hsla(29, 0%, 74%, 0.12) 36px), repeating-linear-gradient(43deg, hsla(29, 0%, 74%, 0.12) 0px, transparent 7px, hsla(29, 0%, 74%, 0.12) 12px, transparent 19px, hsla(29, 0%, 74%, 0.12) 24px, transparent 31px, hsla(29, 0%, 74%, 0.12) 36px), repeating-linear-gradient(0deg, hsla(29, 0%, 74%, 0.12) 0px, transparent 7px, hsla(29, 0%, 74%, 0.12) 12px, transparent 19px, hsla(29, 0%, 74%, 0.12) 24px, transparent 31px, hsla(29, 0%, 74%, 0.12) 36px), linear-gradient(90deg, rgb(253, 253, 253), rgb(253, 253, 253));
+}
+
 .banner {
   margin: 20px 20px 20px 20px;
   display: flex;
@@ -66,8 +70,8 @@
 
 /*Contenedor imágenes-html*/
 .banner2 {
-  background-color: #ffdf00 !important;
-  border: 5px solid white;
+  background-color: gold !important;
+  border: 3px solid black;
 }
 .banner2__container {
   justify-content: center !important;
@@ -114,14 +118,54 @@
   transform: translateY(-3%);
 }
 
-/*Productos: grid-imágenes*/
+/*Titulos secciones*/
 .titulo2 {
-  background-color: "#feefad";
+  background-color: gold;
   text-align: center;
   margin: 10px;
-}
-.titulo2h2 {
   font-family: "Dosis";
+  border: solid;
+}
+
+/*Productos*/
+/*Contenedor productos*/
+.productos__contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.productos__contenedor__card {
+  border: solid;
+  padding: 20px;
+  margin: 30px;
+}
+.productos__contenedor__card .card-body {
+  text-align: center;
+}
+.productos__contenedor__card .card-body .card-title {
+  font-size: 17px;
+}
+.productos__contenedor__card .card-body .btn {
+  font-weight: 500;
+  font-family: "Dosis";
+  font-size: 15px;
+  color: black;
+  border: solid;
+  background-color: #ffdf00;
+}
+.productos__contenedor__card .card-body1 {
+  text-align: center;
+  margin: 40px;
+}
+.productos__contenedor__card .card-body1 .btn {
+  font-weight: 500;
+  font-family: "Dosis";
+  font-size: 15px;
+  color: black;
+  border: solid;
+  background-color: #ffdf00;
+}
+.productos__contenedor__card .card-body1 .card-title {
+  font-size: 17px;
 }
 
 /*navegación final*/

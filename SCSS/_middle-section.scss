@@ -1,4 +1,7 @@
 /*body*/
+.color-cuerpo {
+    background-image: repeating-linear-gradient(293deg, hsla(29,0%,74%,0.12) 0px,transparent 7px,hsla(29,0%,74%,0.12) 12px,transparent 19px,hsla(29,0%,74%,0.12) 24px,transparent 31px,hsla(29,0%,74%,0.12) 36px),repeating-linear-gradient(43deg, hsla(29,0%,74%,0.12) 0px,transparent 7px,hsla(29,0%,74%,0.12) 12px,transparent 19px,hsla(29,0%,74%,0.12) 24px,transparent 31px,hsla(29,0%,74%,0.12) 36px),repeating-linear-gradient(0deg, hsla(29,0%,74%,0.12) 0px,transparent 7px,hsla(29,0%,74%,0.12) 12px,transparent 19px,hsla(29,0%,74%,0.12) 24px,transparent 31px,hsla(29,0%,74%,0.12) 36px),linear-gradient(90deg, rgb(253,253,253),rgb(253,253,253));
+}
 .banner {
     margin: 20px 20px 20px 20px;
     display: flex;
@@ -14,8 +17,8 @@
   }
   /*Contenedor imágenes-html*/
   .banner2 { 
-    background-color: #ffdf00 !important;
-    border: 5px solid white;
+    background-color: $color2 !important;
+    border: 3px solid black;
     &__container {
         justify-content: center !important;
         &__h2 {
@@ -60,12 +63,45 @@
         transform: translateY(-3%);
     }
     }
-    /*Productos: grid-imágenes*/
+    /*Titulos secciones*/
     .titulo2 {
         background-color: $color2; //modificar colores porqué no agarra en la página
         text-align: center;
         margin: 10px;
-        &h2 {
-            font-family: $dosis;
-        }
+        font-family: $dosis;
+        border: solid;
     }
+    /*Productos*/
+    /*Contenedor productos*/
+.productos__contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &__card {
+      border: solid;
+      @include espacios(20px, 30px);
+      .card-body {
+        text-align: center;
+        .card-title {
+          font-size: 17px;
+        }
+        .btn {
+          @include btn(500, $dosis, 15px, black);
+          border: solid;
+          background-color: $color1;
+        }
+      }
+      .card-body1 {
+        text-align: center;
+        margin: 40px;
+        .btn {
+            @include btn(500, $dosis, 15px, black);
+            border: solid;
+            background-color: $color1;
+          }
+        .card-title {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  

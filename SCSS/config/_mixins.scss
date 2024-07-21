@@ -5,3 +5,8 @@
     font-size: $fs;
     color: $cf;
 }
+//padding-margin
+@mixin espacios ($p, $m) {
+    padding: $p;
+    margin: $m;
+}

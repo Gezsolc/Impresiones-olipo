@@ -168,6 +168,65 @@
   font-size: 17px;
 }
 
+/*Pedidos*/
+/*Formulario-contacto*/
+.pedidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.pedidos__formulario {
+  width: fit-content;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.pedidos__formulario .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.pedidos__formulario .form-group label {
+  flex: 1;
+  margin-right: 10px;
+  font-family: "Dosis";
+  font-weight: 500;
+}
+.pedidos__formulario .form-group input {
+  flex: 2;
+  padding: 5px;
+  font-family: "Dosis";
+}
+.pedidos__formulario p {
+  margin: 20px 0;
+  font-family: "Dosis";
+  font-weight: 500;
+}
+.pedidos__formulario .text-container {
+  width: 100%;
+  padding: 10px;
+  resize: vertical;
+  margin: 10px 0px 20px 0px;
+}
+.pedidos__formulario .submit-btn {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-family: "Dosis";
+  font-size: 15px;
+  color: black;
+  border: solid;
+  background-color: gold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 40%;
+  align-self: center;
+}
+.pedidos__formulario .submit-btn:hover {
+  background-color: #0056b3;
+}
+
 /*navegación final*/
 .row-pie {
   display: grid;

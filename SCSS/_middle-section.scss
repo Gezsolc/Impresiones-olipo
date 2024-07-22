@@ -104,4 +104,60 @@
       }
     }
   }
+/*Pedidos*/
+/*Formulario-contacto*/
+.pedidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    &__formulario {
+      width: fit-content;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      .form-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        label {
+          flex: 1;
+          margin-right: 10px;
+          font-family: $dosis;
+          font-weight: 500;
+        }
+        input {
+          flex: 2;
+          padding: 5px;
+          font-family: $dosis;
+        }
+      }
+      p {
+        margin: 20px 0;
+        font-family: $dosis;
+        font-weight: 500;
+      }
+      .text-container {
+        width: 100%;
+        padding: 10px;
+        resize: vertical;
+        margin: 10px 0px 20px 0px;
+      }
+      .submit-btn {
+        padding: 10px 20px;
+        @include btn(500, $dosis, 15px, black);
+        border: solid;
+        background-color: $color2; 
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 40%;
+        align-self: center;
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
   

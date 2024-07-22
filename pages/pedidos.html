@@ -66,27 +66,29 @@
    </header>
      <main>
          <div>
-            <h2 class="titulo2">Pedidos personalizados</h2>
+            <h2 class="titulo2 pedidos-titulo">Pedidos personalizados</h2>
          </div>
-         <section>
-             <p>¿Tenés alguna idea en mente y no la encontrás en ningún lugar? en <strong>impresiones Olipo</strong> podemos ayudarte a que tu sueño se haga realidad</p>
-             <form action="form.php" method="post">
-                 <label for="">Nombre y Apellido</label>
-                    <input type="text" name="Nombre" id="Nombre" placeholder="Ej: Juan Pedro Sanchez" required>
-                 <br>
-                 <br>
-                 <label for="">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Ej: juanpedro@hotmail.com" required>
-                 <br>
-                 <br>
-                 <label for="">Celular</label>   
-                    <input type="tel" name="teléfono" id="teléfono" placeholder="Ej: 1134232879" required>
-            
-                 <p> Contanos tu idea, trata de incluirnos detalles. No te preocupes nosotros nos encargamos del resto</p>
-                    <textarea class="text-container" name="" id="" cols="30" rows="10"></textarea>
-                 <input type="submit" value="">
-             </form>
-         </section>
+         <section class="pedidos">
+          <div>
+            <form class="pedidos__formulario" action="form.php" method="post">
+              <div class="form-group">
+                <label for="Nombre">Nombre y Apellido</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Ej: Juan Pedro Sanchez" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Ej: juanpedro@hotmail.com" required>
+              </div>
+              <div class="form-group">
+                <label for="teléfono">Celular</label>
+                <input type="tel" name="teléfono" id="teléfono" placeholder="Ej: 1134232879" required>
+              </div>
+              <p>Contanos tu idea, trata de incluirnos detalles. No te preocupes nosotros nos encargamos del resto</p>
+              <textarea class="text-container" name="idea" id="idea" cols="30" rows="10"></textarea>
+              <input type="submit" value="Enviar" class="submit-btn">
+            </form>
+          </div>
+        </section>
      </main>
      <footer>
       <div class="container text-center">

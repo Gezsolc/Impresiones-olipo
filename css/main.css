@@ -320,6 +320,16 @@
   .text-container {
     width: 100%;
   }
+  /*Productos-contenedor imagenes*/
+  .productos__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productos__contenedor__card {
+    width: 100%;
+    max-width: 400px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

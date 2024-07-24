@@ -163,12 +163,10 @@
 .contacto__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
 .col {
   padding: 10px;
 }
-
 .descripcion-ubicacion {
    p {
     font-family: $dosis;
@@ -194,4 +192,18 @@
 }
 .redes .lista {
   margin: 10px;
+}
+.nosotros__container {
+  width: 100%;
+  padding: 20px;
+  .row {
+    width: 100%;
+  }
+  p {
+    font-size: 15px;
+    font-family: $dosis;
+  }
+  img {
+    width: 40%;
+  }
 }

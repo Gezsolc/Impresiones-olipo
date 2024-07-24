@@ -261,7 +261,26 @@
   margin: 10px;
 }
 
+.nosotros__container {
+  width: 100%;
+  padding: 20px;
+}
+.nosotros__container .row {
+  width: 100%;
+}
+.nosotros__container p {
+  font-size: 15px;
+  font-family: "Dosis";
+}
+.nosotros__container img {
+  width: 40%;
+}
+
 /*navegación final*/
+.pie-final {
+  background-color: #f8de4e;
+}
+
 .row-pie {
   display: grid;
   max-width: 100%;
@@ -375,6 +394,9 @@
   .redes h3 {
     border: solid;
     background-color: gold;
+  }
+  .nosotros__container .row {
+    flex-direction: column;
   }
   /*Pedidos-*/
   .text-container {

@@ -246,9 +246,19 @@
   margin: 20px;
 }
 
+.redes h3 {
+  margin: 20px;
+  font-family: "Dosis";
+  font-size: 20px;
+  font-weight: 500;
+}
 .redes img {
   width: 100px;
   margin: 30px;
+}
+
+.redes .lista {
+  margin: 10px;
 }
 
 /*navegación final*/
@@ -351,9 +361,20 @@
   .column3list-grouplistaa {
     font-size: 15px;
   }
-  /*Contacto-*/
-  .contacto__ubicacion {
+  /*Contacto*/
+  .contacto__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contacto__container .row {
     width: 100%;
+  }
+  .mapa-ubicacion iframe {
+    width: 90%;
+  }
+  .redes h3 {
+    border: solid;
+    background-color: gold;
   }
   /*Pedidos-*/
   .text-container {

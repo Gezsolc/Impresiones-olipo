@@ -10,3 +10,8 @@
     padding: $p;
     margin: $m;
 }
+//titulos
+@mixin titulos ($b, $bk) {
+    border: $b;
+    background-color: $bk;
+}

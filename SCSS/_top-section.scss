@@ -20,6 +20,12 @@
       }
      }
 }
+.head__busqueda {
+    display: flex;
+}
+.lupa {
+    display: none;
+}
 /*barra de navegación*/
 .nav {
     &__btn1 {

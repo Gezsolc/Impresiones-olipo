@@ -34,6 +34,14 @@
   margin: 0px 20px 0px 10px;
 }
 
+.head__busqueda {
+  display: flex;
+}
+
+.lupa {
+  display: none;
+}
+
 /*barra de navegación*/
 .nav__btn1 {
   font-weight: 700;
@@ -276,6 +284,29 @@
   width: 40%;
 }
 
+/*Envíos*/
+.envios-titulo {
+  font-size: 25px;
+  font-family: "Dosis";
+  margin-bottom: 20px;
+}
+
+.envios-img {
+  width: 5%;
+  margin: 10px;
+}
+
+.envios-img-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.entrega-productos {
+  padding: 10px;
+  margin: 20px;
+  font-family: "Dosis";
+}
+
 /*navegación final*/
 .pie-final {
   background-color: #f8de4e;
@@ -327,17 +358,18 @@
 @media (max-width: 768px) {
   /* … */
 }
-/*Media queries- celular*/
+/*Media queries- mobile*/
 @media (max-width: 480px) {
-  /*Header-html*/
-  .head__busqueda__btn {
-    position: relative;
-  }
-  .search-text {
-    display: none;
-  }
-  .search-icon {
+  .lupa {
     display: inline;
+  }
+  .lupa .lupa-busqueda {
+    width: 45px;
+    margin-right: 5px;
+  }
+  /*Header-html*/
+  .head__busqueda {
+    display: none;
   }
   /*body-index*/
   .banner {
@@ -411,6 +443,9 @@
   .productos__contenedor__card {
     width: 100%;
     max-width: 400px;
+  }
+  .envios-img {
+    width: 15%;
   }
 }
 

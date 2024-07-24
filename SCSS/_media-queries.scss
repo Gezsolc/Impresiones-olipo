@@ -2,17 +2,19 @@
 @media (max-width: 768px) {
     /* … */
   }
-  /*Media queries- celular*/
+  /*Media queries- mobile*/
   @media (max-width: 480px) {
-    /*Header-html*/
-    .head__busqueda__btn {
-      position: relative;
+    .lupa {
+         display: inline;
+        .lupa-busqueda {
+         width: 45px; 
+         margin-right: 5px;  
+        }
     }
-    .search-text {
-      display: none;
-    }
-    .search-icon {
-      display: inline; 
+/*Header-html*/
+    .head__busqueda {
+      display: none; 
+      
     }
 /*body-index*/
 .banner {
@@ -110,7 +112,9 @@ align-items: center;
     width: 100%; 
     max-width: 400px; 
   }
-
+  .envios-img {
+    width: 15%;
+  }
 }
   
 

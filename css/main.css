@@ -227,10 +227,33 @@
   background-color: #0056b3;
 }
 
+/*Contacto*/
+.contacto__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col {
+  padding: 10px;
+}
+
+.descripcion-ubicacion p {
+  font-family: "Dosis";
+  margin: 20px;
+}
+
+.mapa-ubicacion iframe {
+  margin: 20px;
+}
+
+.redes img {
+  width: 100px;
+  margin: 30px;
+}
+
 /*navegación final*/
 .row-pie {
   display: grid;
-  flex-wrap: nowrap;
   max-width: 100%;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -252,7 +275,23 @@
 }
 
 .column3 {
-  line-height: 50px;
+  line-height: 45px;
+  margin-top: 20px;
+}
+
+/*lista estilo general-navegacion final*/
+.lista__link {
+  list-style: none;
+  font-size: 15px;
+  font-family: "Dosis";
+  text-decoration: none;
+}
+
+.lista__pie {
+  list-style: none;
+  font-size: 15px;
+  font-family: "Dosis";
+  text-decoration: none;
 }
 
 /*Media queries- tablet*/

@@ -159,5 +159,28 @@
       }
     }
   }
-  
-  
+/*Contacto*/
+.contacto__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.col {
+  padding: 10px;
+}
+
+.descripcion-ubicacion {
+   p {
+    font-family: $dosis;
+   margin: 20px;
+    }
+}
+.mapa-ubicacion {
+  iframe {
+    margin: 20px;
+  }
+}
+.redes img {
+  width: 100px;
+  margin: 30px;
+}  

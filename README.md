@@ -1,7 +1,7 @@
 # Proyecto Impresiones Olipo
 ## Curso 'Desarrollo Web' realizado en Coderhouse
 
-![portada página web](image.png)
+![portada página web](./Image/image.png)
 ## Descripción del Proyecto
 
 El objetivo de este proyecto fue construir una tienda en línea donde los clientes puedan explorar y comprar productos impresos en 3D. El sitio web incluye varias funcionalidades, como una barra de búsqueda, una galería de productos, una sección de preguntas frecuentes y una página de contacto.
@@ -43,19 +43,19 @@ A lo largo del desarrollo de este proyecto, aprendí y apliqué los siguientes c
 
 Productos
 
-![sección productos](image-1.png)
+![sección productos](./Image/image-1.png)
 
 Pedidos personalizados 
 
-![seccion pedidos personalizados](image-2.png)
+![seccion pedidos personalizados](./Image/image-2.png)
 
 Contacto
 
-![seccion contacto](image-3.png)
+![seccion contacto](./Image/image-3.png)
 
 Formas de envío
 
-![seccion formas de envío](image-4.png)
+![seccion formas de envío](./Image/image-4.png)
 ## Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:

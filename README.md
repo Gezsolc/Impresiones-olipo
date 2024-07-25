@@ -39,6 +39,23 @@ A lo largo del desarrollo de este proyecto, aprendí y apliqué los siguientes c
 
 ➡️ **Uso de animaciones**: Se utilizaron animaciones sutiles en elementos puntuales.
 
+## Secciones de mi página 
+
+Productos
+
+![sección productos](image-1.png)
+
+Pedidos personalizados 
+
+![seccion pedidos personalizados](image-2.png)
+
+Contacto
+
+![seccion contacto](image-3.png)
+
+Formas de envío
+
+![seccion formas de envío](image-4.png)
 ## Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:

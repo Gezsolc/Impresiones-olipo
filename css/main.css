@@ -38,6 +38,10 @@
   display: flex;
 }
 
+.search-text {
+  font-family: "Dosis";
+}
+
 .lupa {
   display: none;
 }

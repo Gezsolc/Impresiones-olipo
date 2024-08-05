@@ -1,5 +1,4 @@
 /* Encabezado: logo de la página*/
-//agregar background al body $color-complementario2
 .head {
     display: flex;
     background-color: #ffdf00 !important;
@@ -22,6 +21,9 @@
 }
 .head__busqueda {
     display: flex;
+    &__btn {
+        border-radius: 10px;
+    }
 }
 .search-text {
     font-family: $dosis;

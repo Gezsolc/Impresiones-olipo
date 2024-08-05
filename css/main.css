@@ -37,6 +37,9 @@
 .head__busqueda {
   display: flex;
 }
+.head__busqueda__btn {
+  border-radius: 10px;
+}
 
 .search-text {
   font-family: "Dosis";
